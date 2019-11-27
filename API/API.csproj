@@ -160,6 +160,7 @@
     <Compile Include="Controllers\BorrowerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NotBorrowedController.cs" />
+    <Compile Include="Controllers\SelectBorrowerController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="DBConnection.cs" />
     <Compile Include="Global.asax.cs">
@@ -170,6 +171,7 @@
     <Compile Include="Models\BorrowedBooks.cs" />
     <Compile Include="Models\Borrower.cs" />
     <Compile Include="Models\BriefBook.cs" />
+    <Compile Include="Models\SelectedBorrower.cs" />
     <Compile Include="Models\NotBorrowed.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
